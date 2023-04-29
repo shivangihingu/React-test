@@ -1,0 +1,242 @@
+
+.App {
+  text-align: center;
+  background-image: url('./assets/Ellipse 3.svg'), url('./assets/Ellipse 4.svg'), url('./assets/Ellipse 5.svg');
+  background-position: left top, bottom left, right center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 100rem;
+}
+
+.header{
+  width: 100%;
+}
+
+
+/* !important means no any default css are overwrite based on particular css */
+.card-userForm{
+  position: absolute !important;
+  width: 541px !important;
+  height: 443px !important;
+  left: 53px !important;
+  top: 160px !important;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(116, 188, 82, 0.2) !important;
+  border-radius: 20px !important;
+  border: none !important;
+}
+
+.card-title{
+  position: absolute !important;
+  width: 396px !important;
+  height: 39px !important;
+  left: 25px !important;
+  top: 29px !important;
+  font-family: 'Roboto' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 32px !important;
+  line-height: 24px !important;
+  display: flex;
+  align-items: center;
+  color: #000000 !important;
+}
+
+.submitbtn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 28px !important;
+  gap: 90px !important;
+  position: absolute !important;
+  width: 107px !important;
+  height: 44px !important;
+  left: 24px !important ;
+  top: 343px !important ;
+  background: #000000;
+  border-radius: 100px !important;
+  color: #EBF3F8;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+}
+
+.clearbtn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 28px !important;
+  gap: 90px !important;
+  position: absolute !important;
+  width: 93px !important;
+  height: 44px !important;
+  left: 164px !important;
+  top: 343px !important;
+  background: #000000;
+  border-radius: 100px;
+  color: #EBF3F8 !important;
+  font-family: 'Roboto' !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+}
+
+.label-name{
+  position: absolute !important;
+  width: 119px !important;
+  height: 29.46px !important;
+  left: 24px !important;
+  top: 132px !important;
+  font-family: 'Roboto' !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.input-name{
+  box-sizing: border-box !important;
+  position: absolute !important;
+  width: 355px !important;
+  height: 36.12px !important;
+  left: 142px !important;
+  top: 129px !important;
+  background: #FFFFFF !important;
+  border: 1px solid #000000 !important;
+  border-radius: 4px !important;
+  font-family: 'Roboto' !important
+}
+
+.label-email{
+  position: absolute !important;
+  width: 119px !important;
+  height: 29.46px !important;
+  left: 24px !important;
+  top: 206px !important;
+  font-family: 'Roboto' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  display: flex;
+  align-items: center;
+  color: #000000 !important;
+  font-family: 'Roboto' !important
+}
+
+.input-email{
+  box-sizing: border-box !important;
+  position: absolute !important;
+  width: 355px !important;
+  height: 36.12px !important;
+  left: 142px !important;
+  top: 203px !important;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 4px !important;
+  font-family: 'Roboto' !important
+}
+
+
+.card-userdetails{
+  position: absolute !important;
+  width: 57rem !important;
+  height: auto !important;
+  left: 641px !important;
+  top: 160px !important;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(116, 188, 82, 0.28) !important;
+  border-radius: 20px !important;
+  border: none !important;
+  font-family: 'Roboto' !important
+}
+
+table{
+  margin-top: 4.5rem;
+}
+
+tr{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(116, 188, 82, 0.28) !important;
+  border-radius: 20px;
+  overflow: hidden;
+  font-family: 'Roboto' !important;
+  cursor: pointer;
+}
+
+tr td {
+  padding: 20px !important;
+  font-size: 16px;
+  line-height: 1.5;
+  border: none !important;
+}
+
+tr td:first-child {
+  width: 25%;
+  text-align: left;
+}
+
+tr td:nth-child(2){
+  /* width: 40%; */
+  text-align: left;
+  width: 65%;
+}
+
+tr td:last-child {
+  /* width: 20%; */
+  text-align: right;
+}
+
+tr td img {
+  /* width: 20px;
+  height: 20px; */
+  vertical-align: middle;
+}
+
+tr.selected {
+  background: #F7F7F7;
+}
+
+/* td{
+  border: none !important;
+  font-family: 'Roboto' !important
+} */
+
+button{
+  border: none;
+  background: none;
+  font-family: 'Roboto' !important
+}
+
+.load-more{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 28px !important;
+  gap: 90px !important;
+  position: absolute;
+  width: 133px !important;
+  height: 44px !important;
+  left: 25rem !important;
+  bottom: 0px !important;
+  background: #000000 !important;
+  border-radius: 100px !important;
+  color: white;
+  font-family: 'Roboto' !important
+}
+
+.selected{
+  border: 1px solid gray;
+}
